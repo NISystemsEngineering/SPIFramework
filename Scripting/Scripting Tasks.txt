@@ -1,0 +1,10 @@
+Scripting Tasks:
+----------------
+Part 1:
+- Init Node (variable: Number of Nodes --- Number of FIFOs)
+- DLU Get Cmd (variable: Number of Nodes)
+- DLU Engine (input: DLU from customer)
+- DLU Send Data (variable: Number of Nodes)
+
+Part 2:
+- IO Node (variable: Node Number and FIFO's)
