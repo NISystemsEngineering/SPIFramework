@@ -89,7 +89,6 @@
 			<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../Classes/cRIO configuration/cRIO configuration.lvclass"/>
 			<Item Name="cRIO  node root.lvclass" Type="LVClass" URL="../Classes/cRIO node/cRIO  node root.lvclass"/>
 			<Item Name="RIO Target Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Target Configuration/RIO Target Configuration.lvclass"/>
-			<Item Name="cRIO_New.lvclass" Type="LVClass" URL="../../SPICodeGUI/Classes/cRIO_New/cRIO_New.lvclass"/>
 			<Item Name="RIO Target.lvclass" Type="LVClass" URL="../Classes/RIO Target/RIO Target.lvclass"/>
 			<Item Name="Bus Configuration.lvclass" Type="LVClass" URL="../Classes/Bus Configuration/Bus Configuration.lvclass"/>
 			<Item Name="Device.lvclass" Type="LVClass" URL="../Classes/Device node/Device.lvclass"/>
@@ -135,6 +134,7 @@
 		<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../Advanced Configuration Tool.lvlib"/>
 		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
+		<Item Name="Untitled 5.vi" Type="VI" URL="../../Untitled 5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
