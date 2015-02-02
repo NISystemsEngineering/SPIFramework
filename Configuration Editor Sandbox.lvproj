@@ -134,7 +134,6 @@
 		<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../Advanced Configuration Tool.lvlib"/>
 		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
-		<Item Name="Untitled 5.vi" Type="VI" URL="../../Untitled 5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
