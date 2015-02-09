@@ -1,7 +1,516 @@
-***********************
-Error 5003
-Initialization and IO Node Scripting.lvlib:Check CS Lines vs Channels.vi<ERR>
 
-Total number of channels and number of chip select lines are inequal for bus(es):
-0,
-***********************
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+
+_____________________
+Preparing Bus 1
+_____________________
+Initialize
+Modify Dequeue Commands
+Modify Enqueue Data
+Create Project FIFOs
+Create and Place IO Nodes
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Replace DLU
+Update Node Count in Engine
+Place SPI Engine
+Buses Complete Check
+End
