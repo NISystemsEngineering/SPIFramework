@@ -131,9 +131,10 @@
 			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 		</Item>
-		<Item Name="Advanced Configuration Tool.lvlib" Type="Library" URL="../Advanced Configuration Tool.lvlib"/>
+		<Item Name="SPI Configuration Tool.lvlib" Type="Library" URL="../SPI Configuration Tool.lvlib"/>
 		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
+		<Item Name="Transpose and Get Headers.vi" Type="VI" URL="../Classes/RIO Target/Transpose and Get Headers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -296,11 +297,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{09107F50-E104-4258-92E5-CA0FCB277E6D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Advanced Configuration Tool.lvlib/Configuration Tool Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SPI Configuration Tool.lvlib/Configuration Tool Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Advanced Configuration Tool.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SPI Configuration Tool.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
