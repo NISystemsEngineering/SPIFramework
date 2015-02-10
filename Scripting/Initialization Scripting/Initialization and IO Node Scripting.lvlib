@@ -72,6 +72,7 @@
 				<Item Name="Get Reference for Specified Type (Project).vi" Type="VI" URL="../Project Structure/Sub VIs/Get Reference for Specified Type (Project).vi"/>
 				<Item Name="Get Reference for Specified Type (Target).vi" Type="VI" URL="../Project Structure/Sub VIs/Get Reference for Specified Type (Target).vi"/>
 			</Item>
+			<Item Name="Add IO Node to Library.vi" Type="VI" URL="../IO Nodes/Sub VIs/Add IO Node to Library.vi"/>
 			<Item Name="Add VI to Virtual Folder.vi" Type="VI" URL="../Project Structure/Add VI to Virtual Folder.vi"/>
 			<Item Name="Create Virtual Folder.vi" Type="VI" URL="../Project Structure/Create Virtual Folder.vi"/>
 		</Item>
@@ -97,7 +98,7 @@
 		<Item Name="State Machine" Type="Folder">
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Bus Information.ctl" Type="VI" URL="../State Machine/Controls/Bus Information.ctl"/>
-				<Item Name="Device Information.ctl" Type="VI" URL="../../../Controls/Device Information.ctl"/>
+				<Item Name="Device Information.ctl" Type="VI" URL="../State Machine/Controls/Device Information.ctl"/>
 				<Item Name="Scripting States.ctl" Type="VI" URL="../State Machine/Controls/Scripting States.ctl"/>
 				<Item Name="Values for Naming.ctl" Type="VI" URL="../State Machine/Controls/Values for Naming.ctl"/>
 			</Item>
@@ -105,6 +106,7 @@
 				<Item Name="Array of Device Info to Channel Data.vi" Type="VI" URL="../State Machine/Sub VIs/Array of Device Info to Channel Data.vi"/>
 				<Item Name="Handle Progress Bar.vi" Type="VI" URL="../State Machine/Sub VIs/Handle Progress Bar.vi"/>
 				<Item Name="Initialize State Machine.vi" Type="VI" URL="../State Machine/Sub VIs/Initialize State Machine.vi"/>
+				<Item Name="Place Noeds and Engine Global.vi" Type="VI" URL="../State Machine/Sub VIs/Place Noeds and Engine Global.vi"/>
 				<Item Name="Status Log and Error Handling.vi" Type="VI" URL="../State Machine/Sub VIs/Status Log and Error Handling.vi"/>
 			</Item>
 			<Item Name="Top Level State Machine.vi" Type="VI" URL="../State Machine/Top Level State Machine.vi"/>

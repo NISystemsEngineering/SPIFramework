@@ -23,8 +23,12 @@
 		<Item Name="Enqueue Data To Nodes.vi" Type="VI" URL="../DLULayer/Enqueue Data To Nodes.vi"/>
 		<Item Name="Initialize Node Resources.vi" Type="VI" URL="../DLULayer/Initialize Node Resources.vi"/>
 	</Item>
+	<Item Name="IO Nodes" Type="Folder">
+		<Item Name="test.txt" Type="Document" URL="../IO Nodes/test.txt"/>
+	</Item>
 	<Item Name="Node" Type="Folder">
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Node_Command_Sent.ctl" Type="VI" URL="../Node/Controls/Node_Command_Sent.ctl"/>
 			<Item Name="NodeResources FIFOs.ctl" Type="VI" URL="../Node/Controls/NodeResources FIFOs.ctl"/>
 		</Item>
 		<Item Name="Dequeue Data from RxFIFO (Node).vi" Type="VI" URL="../Node/Dequeue Data from RxFIFO (Node).vi"/>
@@ -32,4 +36,6 @@
 		<Item Name="Enqueue Data into RxFIFO (Node).vi" Type="VI" URL="../Node/Enqueue Data into RxFIFO (Node).vi"/>
 		<Item Name="Enqueue Message to Tx Command FIFO (Node).vi" Type="VI" URL="../Node/Enqueue Message to Tx Command FIFO (Node).vi"/>
 	</Item>
+	<Item Name="Analog Input Node x.vi" Type="VI" URL="../Analog Input Node x.vi"/>
+	<Item Name="SPIEngineSOM.vi" Type="VI" URL="../SPIEngineSOM.vi"/>
 </Library>

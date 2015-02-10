@@ -142,17 +142,19 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Scripting Source Distribution</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/E/Documents/Projects/SPIAPI/builds/Scripting</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C3A99C5A-99B8-412B-A370-1D3C776D0DFE}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Scripting Source Distribution</Property>
+				<Property Name="Destination[0].path" Type="Path">/E/Documents/Projects/SPIAPI/builds/Scripting</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Scripting Source Distribution/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/E/Documents/Projects/SPIAPI/builds/Scripting/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E1DD5EC-8E00-4532-97A1-6220DE32D58A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0EE984C-0432-455C-968A-B07A21DC1EA5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Initialization and IO Node Scripting.lvlib</Property>
