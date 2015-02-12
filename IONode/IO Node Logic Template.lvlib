@@ -23,9 +23,7 @@
 		<Item Name="Enqueue Data To Nodes.vi" Type="VI" URL="../DLULayer/Enqueue Data To Nodes.vi"/>
 		<Item Name="Initialize Node Resources.vi" Type="VI" URL="../DLULayer/Initialize Node Resources.vi"/>
 	</Item>
-	<Item Name="IO Nodes" Type="Folder">
-		<Item Name="test.txt" Type="Document" URL="../IO Nodes/test.txt"/>
-	</Item>
+	<Item Name="IO Nodes" Type="Folder"/>
 	<Item Name="Node" Type="Folder">
 		<Item Name="Controls" Type="Folder">
 			<Item Name="NodeResources FIFOs.ctl" Type="VI" URL="../Node/Controls/NodeResources FIFOs.ctl"/>
