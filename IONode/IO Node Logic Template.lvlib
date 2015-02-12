@@ -28,7 +28,6 @@
 	</Item>
 	<Item Name="Node" Type="Folder">
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Node_Command_Sent.ctl" Type="VI" URL="../Node/Controls/Node_Command_Sent.ctl"/>
 			<Item Name="NodeResources FIFOs.ctl" Type="VI" URL="../Node/Controls/NodeResources FIFOs.ctl"/>
 		</Item>
 		<Item Name="Dequeue Data from RxFIFO (Node).vi" Type="VI" URL="../Node/Dequeue Data from RxFIFO (Node).vi"/>
