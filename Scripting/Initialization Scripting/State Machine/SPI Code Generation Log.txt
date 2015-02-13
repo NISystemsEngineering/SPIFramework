@@ -6,28 +6,9 @@ Modify Dequeue Commands
 Modify Enqueue Data
 Create Project FIFOs
 Create and Place IO Nodes
-Expand FIFO Type Def
-Populate FIFO Names in Engine
-Modify I/O Pin Names
-Modify I/O Pin Enable
-Replace DLU
-Update Node Count in Engine
-Place SPI Engine
-Buses Complete Check
-_____________________
-Preparing Bus 1
-_____________________
-Initialize
-Modify Dequeue Commands
-Modify Enqueue Data
-Create Project FIFOs
-Create and Place IO Nodes
-Expand FIFO Type Def
-Populate FIFO Names in Engine
-Modify I/O Pin Names
-Modify I/O Pin Enable
-Replace DLU
-Update Node Count in Engine
-Place SPI Engine
-Buses Complete Check
-End
+***********************
+Error 7
+Invoke Node in Initialization and IO Node Scripting.lvlib:Create New IO Node.vi->Initialization and IO Node Scripting.lvlib:SPI Scripting.Create and Place IO Nodes.vi->Initialization and IO Node Scripting.lvlib:Top Level State Machine.vi
+<APPEND>
+Method Name: <b>Save:Instrument</b>
+***********************
