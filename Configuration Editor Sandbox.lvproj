@@ -210,15 +210,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Input Paths.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Input Paths.ctl"/>
-			<Item Name="Device Information.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Device Information.ctl"/>
-			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
-			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
-			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
-			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
-			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
 			<Item Name="Check if Icon Specified.vi" Type="VI" URL="../Scripting/Initialization Scripting/IO Nodes/Sub VIs/Supporting VIs/Check if Icon Specified.vi"/>
 			<Item Name="Check for Valid File Paths.vi" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Sub VIs/Check for Valid File Paths.vi"/>
-			<Item Name="Copy Golden Template to User Location.vi" Type="VI" URL="../Scripting/Copy Golden Template to User Location.vi"/>
 			<Item Name="Modify Dequeue Cmds to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Dequeue Cmds to Requested Node Size.vi"/>
 			<Item Name="Modify Enqueue Data to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Enqueue Data to Requested Node Size.vi"/>
 			<Item Name="Modify NumNodes in SPI Engine.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/NumNodes/Modify NumNodes in SPI Engine.vi"/>
@@ -227,6 +220,11 @@
 			<Item Name="Modify IO Pin Names in SPI Engine.vi" Type="VI" URL="../Scripting/Modify IO Pin Names in SPI Engine.vi"/>
 			<Item Name="Replace DLU.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/Replace DLU.vi"/>
 			<Item Name="Scripting States.ctl" Type="VI" URL="../Scripting/Scripting States.ctl"/>
+			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
+			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
+			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
+			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
+			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
 			<Item Name="CLuster_Line Fit Results.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/CLuster_Line Fit Results.ctl"/>
 			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM RB_Fit Result.ctl"/>
 			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/Picture_Icon.ctl"/>
