@@ -20,5 +20,5 @@
 		<Item Name="SaveAs.vi" Type="VI" URL="../subVI/SaveAs.vi"/>
 		<Item Name="SaveDialog.vi" Type="VI" URL="../subVI/SaveDialog.vi"/>
 	</Item>
-	<Item Name="Configuration Tool Main.vi" Type="VI" URL="../Configuration Tool Main.vi"/>
+	<Item Name="SPI Configuration Main.vi" Type="VI" URL="../SPI Configuration Main.vi"/>
 </Library>

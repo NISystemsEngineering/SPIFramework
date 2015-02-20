@@ -80,14 +80,6 @@
 			<Item Name="Targets" Type="Folder">
 				<Item Name="sbRIO-9651.lvclass" Type="LVClass" URL="../Classes/RIO Targets/sbRIO-9651.lvclass"/>
 			</Item>
-			<Item Name="voltage node.lvclass" Type="LVClass" URL="../Classes/voltage node/voltage node.lvclass"/>
-			<Item Name="channel node.lvclass" Type="LVClass" URL="../Classes/channel node/channel node.lvclass"/>
-			<Item Name="current node.lvclass" Type="LVClass" URL="../Classes/current node/current node.lvclass"/>
-			<Item Name="channel configuration.lvclass" Type="LVClass" URL="../Classes/channel configuration/channel configuration.lvclass"/>
-			<Item Name="group node.lvclass" Type="LVClass" URL="../Classes/group node/group node.lvclass"/>
-			<Item Name="group configuration.lvclass" Type="LVClass" URL="../Classes/group configuration/group configuration.lvclass"/>
-			<Item Name="cRIO configuration.lvclass" Type="LVClass" URL="../Classes/cRIO configuration/cRIO configuration.lvclass"/>
-			<Item Name="cRIO  node root.lvclass" Type="LVClass" URL="../Classes/cRIO node/cRIO  node root.lvclass"/>
 			<Item Name="RIO Target Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Target Configuration/RIO Target Configuration.lvclass"/>
 			<Item Name="RIO Target.lvclass" Type="LVClass" URL="../Classes/RIO Target/RIO Target.lvclass"/>
 			<Item Name="Bus Configuration.lvclass" Type="LVClass" URL="../Classes/Bus Configuration/Bus Configuration.lvclass"/>
@@ -134,7 +126,6 @@
 		<Item Name="SPI Configuration Tool.lvlib" Type="Library" URL="../SPI Configuration Tool.lvlib"/>
 		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
-		<Item Name="Transpose and Get Headers.vi" Type="VI" URL="../Classes/RIO Target/Transpose and Get Headers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -209,6 +200,7 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -218,15 +210,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Input Paths.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Input Paths.ctl"/>
-			<Item Name="Device Information.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Device Information.ctl"/>
-			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
-			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
-			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
-			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
-			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
 			<Item Name="Check if Icon Specified.vi" Type="VI" URL="../Scripting/Initialization Scripting/IO Nodes/Sub VIs/Supporting VIs/Check if Icon Specified.vi"/>
 			<Item Name="Check for Valid File Paths.vi" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Sub VIs/Check for Valid File Paths.vi"/>
-			<Item Name="Copy Golden Template to User Location.vi" Type="VI" URL="../Scripting/Copy Golden Template to User Location.vi"/>
 			<Item Name="Modify Dequeue Cmds to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Dequeue Cmds to Requested Node Size.vi"/>
 			<Item Name="Modify Enqueue Data to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Enqueue Data to Requested Node Size.vi"/>
 			<Item Name="Modify NumNodes in SPI Engine.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/NumNodes/Modify NumNodes in SPI Engine.vi"/>
@@ -235,6 +220,11 @@
 			<Item Name="Modify IO Pin Names in SPI Engine.vi" Type="VI" URL="../Scripting/Modify IO Pin Names in SPI Engine.vi"/>
 			<Item Name="Replace DLU.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/Replace DLU.vi"/>
 			<Item Name="Scripting States.ctl" Type="VI" URL="../Scripting/Scripting States.ctl"/>
+			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
+			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
+			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
+			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
+			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
 			<Item Name="CLuster_Line Fit Results.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/CLuster_Line Fit Results.ctl"/>
 			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM RB_Fit Result.ctl"/>
 			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/Picture_Icon.ctl"/>
@@ -297,7 +287,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{09107F50-E104-4258-92E5-CA0FCB277E6D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SPI Configuration Tool.lvlib/Configuration Tool Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SPI Configuration Tool.lvlib/SPI Configuration Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
