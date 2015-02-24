@@ -79,6 +79,7 @@
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Targets" Type="Folder">
 				<Item Name="sbRIO-9651.lvclass" Type="LVClass" URL="../Classes/RIO Targets/sbRIO-9651.lvclass"/>
+				<Item Name="sbRIO-9651 Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Targets/sbRIO-9651 Configuration.lvclass"/>
 			</Item>
 			<Item Name="RIO Target Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Target Configuration/RIO Target Configuration.lvclass"/>
 			<Item Name="RIO Target.lvclass" Type="LVClass" URL="../Classes/RIO Target/RIO Target.lvclass"/>
@@ -255,6 +256,7 @@
 			<Item Name="TextFit_Size Character array to fit.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Size Character array to fit.vi"/>
 			<Item Name="Utilities_Justify Text Position.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utilities_Justify Text Position.vi"/>
 			<Item Name="TextFit_Insert Character Cluster array into Icon.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Insert Character Cluster array into Icon.vi"/>
+			<Item Name="Copy Golden Template to User Location.vi" Type="VI" URL="../Scripting/Copy Golden Template to User Location.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
