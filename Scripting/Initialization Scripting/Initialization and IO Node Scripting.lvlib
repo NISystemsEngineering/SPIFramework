@@ -4,42 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Initialization Scripting" Type="Folder">
-		<Item Name="Icon Editor" Type="Folder">
-			<Item Name="Array Bool Char Bits Med.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Med.ctl"/>
-			<Item Name="Array Bool Char Bits Thin.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Thin.ctl"/>
-			<Item Name="Array Bool Char Bits Wide.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Wide.ctl"/>
-			<Item Name="Cluster_BOX Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_BOX Data.ctl"/>
-			<Item Name="Cluster_Character Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Character Data.ctl"/>
-			<Item Name="Cluster_Character Size and Priority Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Character Size and Priority Data.ctl"/>
-			<Item Name="Cluster_Font Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Font Data.ctl"/>
-			<Item Name="Cluster_Region info.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Region info.ctl"/>
-			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Text Color Set.ctl"/>
-			<Item Name="Cluster_Top Left position.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Top Left position.ctl"/>
-			<Item Name="Draw_Box.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Draw_Box.vi"/>
-			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM RB_Fit Result.ctl"/>
-			<Item Name="ENUM_Font Size Select.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_Font Size Select.ctl"/>
-			<Item Name="ENUM_General Stop condition.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_General Stop condition.ctl"/>
-			<Item Name="ENUM_Text Justify.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_Text Justify.ctl"/>
-			<Item Name="General_While Loop Stop.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/General_While Loop Stop.vi"/>
-			<Item Name="Icon Colors.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Icon Colors.ctl"/>
-			<Item Name="Icon Editor.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Icon Editor.vi"/>
-			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Picture_Icon.ctl"/>
-			<Item Name="String Char Normal.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/String Char Normal.ctl"/>
-			<Item Name="TextFit_Build Character Cluster array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Build Character Cluster array.vi"/>
-			<Item Name="TextFit_Build Size and Sort Char Cluster Array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Build Size and Sort Char Cluster Array.vi"/>
-			<Item Name="TextFit_Count Pixel Width.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Count Pixel Width.vi"/>
-			<Item Name="TextFit_Extract Bitmap and size.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Extract Bitmap and size.vi"/>
-			<Item Name="TextFit_Fill in Character Array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Fill in Character Array.vi"/>
-			<Item Name="TextFit_Find Next Priority and Shrink.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Find Next Priority and Shrink.vi"/>
-			<Item Name="TextFit_Font List.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Font List.vi"/>
-			<Item Name="TextFit_Get Characters Priority and Index.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Get Characters Priority and Index.vi"/>
-			<Item Name="TextFit_Insert Character Cluster array into Icon.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Insert Character Cluster array into Icon.vi"/>
-			<Item Name="TextFit_Shrink next letter.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Shrink next letter.vi"/>
-			<Item Name="TextFit_Size Character array to fit.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Size Character array to fit.vi"/>
-			<Item Name="TextFit_Size Text to Fit.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Size Text to Fit.vi"/>
-			<Item Name="TextFit_Sort By Order.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Sort By Order.vi"/>
-			<Item Name="Utilities_Justify Text Position.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Utilities_Justify Text Position.vi"/>
-		</Item>
 		<Item Name="Initialization" Type="Folder">
 			<Item Name="Check CS Lines vs Channels.vi" Type="VI" URL="../Initialization/Check CS Lines vs Channels.vi"/>
 			<Item Name="Rename Engine to Match Bus.vi" Type="VI" URL="../Initialization/Rename Engine to Match Bus.vi"/>
