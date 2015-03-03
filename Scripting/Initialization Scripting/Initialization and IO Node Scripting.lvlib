@@ -1,47 +1,16 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="14008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5X&lt;A91P&lt;!FNA#^M#5Y6M96NA"R[WM#WQ"&lt;9A0ZYR'E?G!WPM1$AN&gt;@S(!ZZQG&amp;0%VLZ'@)H8:_X\&lt;^P(^7@8H\4Y;"`NX\;8JZPUX@@MJXC]C.3I6K5S(F/^DHTE)R`ZS%@?]J;XP/5N&lt;XH*3V\SEJ?]Z#F0?=J4HP+5&lt;Y=]Z#%0/&gt;+9@%QU"BU$D-YI-4[':XC':XB]D?%:HO%:HO(2*9:H?):H?)&lt;(&lt;4%]QT-]QT-]BNIEMRVSHO%R@$20]T20]T30+;.Z'K".VA:OAW"%O^B/GK&gt;ZGM&gt;J.%`T.%`T.)`,U4T.UTT.UTROW6;F.]XDE0-9*IKH?)KH?)L(U&amp;%]R6-]R6-]JIPC+:[#+"/7Q2'CX&amp;1[F#`&amp;5TR_2@%54`%54`'YN$WBWF&lt;GI8E==J\E3:\E3:\E-51E4`)E4`)EDW%D?:)H?:)H?5Q6S:-]S:-A;6,42RIMX:A[J3"Z`'S\*&lt;?HV*MENS.C&lt;&gt;Z9GT,7:IOVC7*NDFA00&gt;&lt;$D0719CV_L%7.N6CR&amp;C(7(R=,(1M4;Z*9.T][RNXH46X62:X632X61?X6\H(L8_ZYP^`D&gt;LP&amp;^8K.S_53Z`-Z4K&gt;4()`(/"Q/M&gt;`P9\@&lt;P&lt;U'PDH?8AA`XUMPTP_EXOF`[8`Q&lt;IT0]?OYVOA(5/(_Z!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+,!!!*Q(C=\:1RDB."%%7`%5CE$MC2LV$B"B$Y!A2?:W25MA=Q'1Z.2%JJ@1+HB,Z#*8M!SQ'Z%5*))#US&lt;XJ[P&amp;\,#/2&amp;1%#XK^PTK[PK48&gt;LJ.)?3P=V`Q/.7MX1`?G?O^KKA\J"^@%GPFOU&amp;T`@2^&gt;B`,[`,N@]"`Y\P^R"O^\V_J[XWPH:^;[@(`'@\=7``H,-@^./]\_DN=/*]7I4H&amp;D`6DOW@`PNP`_O`J^@X_HW,T?J*T8T&gt;JN99)[:'N=WU2-^U2-^U2-^U!-^U!-^U!0&gt;U2X&gt;U2X&gt;U2X&gt;U!X&gt;U!X&gt;U!W^&gt;(3B#VXI\%J30#G5*%U3*)N"54)E0!F0QJ0Q]+C%*_&amp;*?"+?B)=F3HA3HI1HY5FY#&amp;0#E`!E0!F0QE/K1J+FI]/4]*"?!5`!%`!%0!%0*28Q"!""M3"RE!1-"=\A4]!4]!1]`&amp;8!%`!%0!&amp;0Q).&lt;!5`!%`!%0!%0)768IN!U(2U?UMDB=8A=(I@(Y3'V("[(R_&amp;R?"Q?SMHB=8A=#+?AERQ%/5(/!O@"Y8&amp;YG/4Q/$Q/D]0D]/!K*_2F:RK;JK0$9`!90!;0Q70QE%)'D]&amp;D]"A]"A^J:@!90!;0Q70Q5%I'D]&amp;D]"AA2F(+SUBG""K,$-(AY6&gt;OCZ64CE*CJ5PV]KJ?3N8,JHK*6#_([K'L(K&lt;K);FOPOKGKG[7[C;IPJQKN#K-;B(6Y';B.IQL&lt;)ENM"EWQ5&lt;9%"NA`3&lt;U.S`=&lt;$:;L6:;,J&gt;;,";;T7;;4#9;D59;$I=;$!&lt;K^`O\L^6D?NN[B^_FDW_PXHSY/&amp;^`?HGV`H9R8L_`(+]\XV30HEXVZ/O5R&amp;-^@&gt;$;]]`N0(\2TK^9J^[P7PN&gt;_B?_D&lt;KH&gt;N\NU8&gt;?Z:8A!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI_IconEditor" Type="Str">49 52 48 48 56 48 51 52 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 12 252 1 100 1 100 80 84 72 48 0 0 0 22 0 1 0 1 17 83 80 73 32 83 99 114 105 112 116 105 110 103 46 112 110 103 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 51 153 255 51 153 255 51 153 255 250 250 250 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 250 250 250 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 76 76 76 255 255 253 76 76 76 255 255 253 76 76 76 255 255 253 76 76 76 255 255 253 76 76 76 255 255 253 255 255 253 255 255 253 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 141 141 141 221 83 0 76 76 76 221 83 0 76 76 76 221 83 0 76 76 76 221 83 0 76 76 76 221 83 0 76 76 76 221 83 0 141 141 141 255 255 253 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 221 83 0 255 241 233 76 76 76 255 241 233 76 76 76 255 241 233 76 76 76 255 241 233 76 76 76 255 241 233 76 76 76 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 221 83 0 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 221 83 0 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 221 83 0 255 241 233 63 23 0 63 23 0 63 23 0 63 23 0 255 241 233 63 23 0 63 23 0 63 23 0 63 23 0 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 221 83 0 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 221 83 0 255 241 233 63 23 0 255 241 233 63 23 0 63 23 0 63 23 0 255 241 233 63 23 0 63 23 0 255 241 233 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 221 83 0 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 255 241 233 120 45 0 178 178 178 51 153 255 51 153 255 255 255 253 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 221 83 0 51 153 255 51 153 255 255 255 253 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 255 255 253 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 51 153 255 51 153 255 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 51 153 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 1 1
+
+</Property>
 	<Item Name="Initialization Scripting" Type="Folder">
-		<Item Name="Icon Editor" Type="Folder">
-			<Item Name="Array Bool Char Bits Med.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Med.ctl"/>
-			<Item Name="Array Bool Char Bits Thin.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Thin.ctl"/>
-			<Item Name="Array Bool Char Bits Wide.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Array Bool Char Bits Wide.ctl"/>
-			<Item Name="Cluster_BOX Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_BOX Data.ctl"/>
-			<Item Name="Cluster_Character Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Character Data.ctl"/>
-			<Item Name="Cluster_Character Size and Priority Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Character Size and Priority Data.ctl"/>
-			<Item Name="Cluster_Font Data.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Font Data.ctl"/>
-			<Item Name="Cluster_Region info.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Region info.ctl"/>
-			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Text Color Set.ctl"/>
-			<Item Name="Cluster_Top Left position.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Cluster_Top Left position.ctl"/>
-			<Item Name="Draw_Box.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Draw_Box.vi"/>
-			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM RB_Fit Result.ctl"/>
-			<Item Name="ENUM_Font Size Select.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_Font Size Select.ctl"/>
-			<Item Name="ENUM_General Stop condition.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_General Stop condition.ctl"/>
-			<Item Name="ENUM_Text Justify.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/ENUM_Text Justify.ctl"/>
-			<Item Name="General_While Loop Stop.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/General_While Loop Stop.vi"/>
-			<Item Name="Icon Colors.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Icon Colors.ctl"/>
-			<Item Name="Icon Editor.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Icon Editor.vi"/>
-			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/Picture_Icon.ctl"/>
-			<Item Name="String Char Normal.ctl" Type="VI" URL="../Icon Editor/Icon Editor.llb/String Char Normal.ctl"/>
-			<Item Name="TextFit_Build Character Cluster array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Build Character Cluster array.vi"/>
-			<Item Name="TextFit_Build Size and Sort Char Cluster Array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Build Size and Sort Char Cluster Array.vi"/>
-			<Item Name="TextFit_Count Pixel Width.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Count Pixel Width.vi"/>
-			<Item Name="TextFit_Extract Bitmap and size.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Extract Bitmap and size.vi"/>
-			<Item Name="TextFit_Fill in Character Array.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Fill in Character Array.vi"/>
-			<Item Name="TextFit_Find Next Priority and Shrink.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Find Next Priority and Shrink.vi"/>
-			<Item Name="TextFit_Font List.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Font List.vi"/>
-			<Item Name="TextFit_Get Characters Priority and Index.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Get Characters Priority and Index.vi"/>
-			<Item Name="TextFit_Insert Character Cluster array into Icon.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Insert Character Cluster array into Icon.vi"/>
-			<Item Name="TextFit_Shrink next letter.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Shrink next letter.vi"/>
-			<Item Name="TextFit_Size Character array to fit.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Size Character array to fit.vi"/>
-			<Item Name="TextFit_Size Text to Fit.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Size Text to Fit.vi"/>
-			<Item Name="TextFit_Sort By Order.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/TextFit_Sort By Order.vi"/>
-			<Item Name="Utilities_Justify Text Position.vi" Type="VI" URL="../Icon Editor/Icon Editor.llb/Utilities_Justify Text Position.vi"/>
-		</Item>
-		<Item Name="Initialization" Type="Folder">
+		<Item Name="Initialization State" Type="Folder">
 			<Item Name="Check CS Lines vs Channels.vi" Type="VI" URL="../Initialization/Check CS Lines vs Channels.vi"/>
+			<Item Name="Copy Template Library.vi" Type="VI" URL="../Initialization/Copy Template Library.vi"/>
 			<Item Name="Rename Engine to Match Bus.vi" Type="VI" URL="../Initialization/Rename Engine to Match Bus.vi"/>
 		</Item>
 		<Item Name="IO Nodes" Type="Folder">
@@ -50,6 +19,7 @@
 				<Item Name="Place IO Node in Block Diagram.vi" Type="VI" URL="../IO Nodes/Sub VIs/Place IO Node in Block Diagram.vi"/>
 			</Item>
 			<Item Name="IO Nodes Close References.vi" Type="VI" URL="../IO Nodes/Sub VIs/IO Nodes Close References.vi"/>
+			<Item Name="Script IO Nodes.vi" Type="VI" URL="../IO Nodes/Script IO Nodes.vi"/>
 			<Item Name="SPI Scripting.Create and Place IO Nodes.vi" Type="VI" URL="../IO Nodes/SPI Scripting.Create and Place IO Nodes.vi"/>
 		</Item>
 		<Item Name="Project FIFOs" Type="Folder">
@@ -65,6 +35,7 @@
 				<Item Name="Obtain References.vi" Type="VI" URL="../Project FIFOs/Sub VIs/Obtain References.vi"/>
 				<Item Name="Post Loop Operations.vi" Type="VI" URL="../Project FIFOs/Sub VIs/Post Loop Operations.vi"/>
 			</Item>
+			<Item Name="Script Project FIFOs.vi" Type="VI" URL="../Project FIFOs/Script Project FIFOs.vi"/>
 			<Item Name="SPI Scripting.Create Project FIFOs.vi" Type="VI" URL="../Project FIFOs/SPI Scripting.Create Project FIFOs.vi"/>
 		</Item>
 		<Item Name="Project Structure" Type="Folder">
@@ -72,7 +43,7 @@
 				<Item Name="Get Reference for Specified Type (Project).vi" Type="VI" URL="../Project Structure/Sub VIs/Get Reference for Specified Type (Project).vi"/>
 				<Item Name="Get Reference for Specified Type (Target).vi" Type="VI" URL="../Project Structure/Sub VIs/Get Reference for Specified Type (Target).vi"/>
 			</Item>
-			<Item Name="Add IO Node to Library.vi" Type="VI" URL="../IO Nodes/Sub VIs/Add IO Node to Library.vi"/>
+			<Item Name="Add VI to Library.vi" Type="VI" URL="../IO Nodes/Sub VIs/Add VI to Library.vi"/>
 			<Item Name="Add VI to Virtual Folder.vi" Type="VI" URL="../Project Structure/Add VI to Virtual Folder.vi"/>
 			<Item Name="Create Virtual Folder.vi" Type="VI" URL="../Project Structure/Create Virtual Folder.vi"/>
 		</Item>
@@ -91,16 +62,28 @@
 					<Item Name="Populate FIFO Names in Engine.vi" Type="VI" URL="../SOM Engine/FIFOs/Sub VIs/Populate FIFO Names in Engine.vi"/>
 					<Item Name="Global Resources Mod.vi" Type="VI" URL="../SOM Engine/FIFOs/Sub VIs/Global Resources Mod.vi"/>
 				</Item>
+				<Item Name="Expand Type Def.vi" Type="VI" URL="../SOM Engine/FIFOs/Sub VIs/Expand Type Def.vi"/>
+				<Item Name="Name FIFOs Top.vi" Type="VI" URL="../SOM Engine/FIFOs/Name FIFOs Top.vi"/>
 				<Item Name="SPI Scripting.Communication FIFOs.vi" Type="VI" URL="../SOM Engine/FIFOs/SPI Scripting.Communication FIFOs.vi"/>
 			</Item>
+			<Item Name="Hardware Lines" Type="Folder"/>
+			<Item Name="Node Communication" Type="Folder"/>
+			<Item Name="Sub VIs" Type="Folder">
+				<Item Name="Build Engine Name.vi" Type="VI" URL="../SOM Engine/Sub VIs/Build Engine Name.vi"/>
+			</Item>
+			<Item Name="Add SPI Engine to Project and Lib.vi" Type="VI" URL="../SOM Engine/Add SPI Engine to Project and Lib.vi"/>
 			<Item Name="SPI Scripting.SPI Engine.vi" Type="VI" URL="../SOM Engine/SPI Scripting.SPI Engine.vi"/>
 		</Item>
 		<Item Name="State Machine" Type="Folder">
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Bus Information.ctl" Type="VI" URL="../State Machine/Controls/Bus Information.ctl"/>
 				<Item Name="Device Information.ctl" Type="VI" URL="../State Machine/Controls/Device Information.ctl"/>
+				<Item Name="Input Paths.ctl" Type="VI" URL="../State Machine/Controls/Input Paths.ctl"/>
 				<Item Name="Scripting States.ctl" Type="VI" URL="../State Machine/Controls/Scripting States.ctl"/>
 				<Item Name="Values for Naming.ctl" Type="VI" URL="../State Machine/Controls/Values for Naming.ctl"/>
+			</Item>
+			<Item Name="Initialization" Type="Folder">
+				<Item Name="Build State List.vi" Type="VI" URL="../State Machine/Initialization/Build State List.vi"/>
 			</Item>
 			<Item Name="Sub VIs" Type="Folder">
 				<Item Name="Array of Device Info to Channel Data.vi" Type="VI" URL="../State Machine/Sub VIs/Array of Device Info to Channel Data.vi"/>
@@ -109,11 +92,16 @@
 				<Item Name="Place Noeds and Engine Global.vi" Type="VI" URL="../State Machine/Sub VIs/Place Noeds and Engine Global.vi"/>
 				<Item Name="Status Log and Error Handling.vi" Type="VI" URL="../State Machine/Sub VIs/Status Log and Error Handling.vi"/>
 			</Item>
-			<Item Name="Top Level State Machine.vi" Type="VI" URL="../State Machine/Top Level State Machine.vi"/>
+		</Item>
+		<Item Name="Supporting VIs" Type="Folder">
+			<Item Name="Close Reference with Invalid Check.vi" Type="VI" URL="../Supporting VIs/Close Reference with Invalid Check.vi"/>
+			<Item Name="Get Last Item on Filepath.vi" Type="VI" URL="../Supporting VIs/Get Last Item on Filepath.vi"/>
+			<Item Name="Node Count.vi" Type="VI" URL="../Supporting VIs/Node Count.vi"/>
+			<Item Name="Sum Elements in 1D Array.vi" Type="VI" URL="../Supporting VIs/Sum Elements in 1D Array.vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="../State Machine/Sub VIs/Timer.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Build Engine Name.vi" Type="VI" URL="../Supporting VIs/Build Engine Name.vi"/>
-	<Item Name="Node Count.vi" Type="VI" URL="../Supporting VIs/Node Count.vi"/>
-	<Item Name="Sum Elements in 1D Array.vi" Type="VI" URL="../Supporting VIs/Sum Elements in 1D Array.vi"/>
-	<Item Name="Timer.vi" Type="VI" URL="../State Machine/Sub VIs/Timer.vi"/>
+	<Item Name="Top Level State Machine.vi" Type="VI" URL="../Top Level State Machine.vi"/>
+	<Item Name="Untitled 10 (SubVI).vi" Type="VI" URL="../Untitled 10 (SubVI).vi"/>
+	<Item Name="Untitled 11 (SubVI).vi" Type="VI" URL="../Untitled 11 (SubVI).vi"/>
 </Library>

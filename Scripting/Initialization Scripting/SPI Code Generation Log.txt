@@ -1,0 +1,21 @@
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Create Project FIFOs
+Create IO Nodes
+Place IO Nodes
+Modify Dequeue Commands
+Modify Enqueue Data
+Update Node Count in Engine
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Add Engine to Project
+Place SPI Engine
+***********************
+Error 7
+Open VI Reference in Initialization and IO Node Scripting.lvlib:SPI Scripting.SPI Engine.vi->Initialization and IO Node Scripting.lvlib:Top Level State Machine.vi<APPEND>
+VI Path: <b>SPIEngineSOM.vi:\</b>
+***********************
