@@ -40,4 +40,5 @@
 		</Item>
 		<Item Name="Analog Input Node x.vi" Type="VI" URL="../Analog Input Node x.vi"/>
 	</Item>
+	<Item Name="Replacement.vi" Type="VI" URL="../Replacement.vi"/>
 </Library>
