@@ -79,7 +79,6 @@
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Targets" Type="Folder">
 				<Item Name="sbRIO-9651.lvclass" Type="LVClass" URL="../Classes/RIO Targets/sbRIO-9651.lvclass"/>
-				<Item Name="sbRIO-9651 Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Targets/sbRIO-9651 Configuration.lvclass"/>
 			</Item>
 			<Item Name="RIO Target Configuration.lvclass" Type="LVClass" URL="../Classes/RIO Target Configuration/RIO Target Configuration.lvclass"/>
 			<Item Name="RIO Target.lvclass" Type="LVClass" URL="../Classes/RIO Target/RIO Target.lvclass"/>
@@ -117,8 +116,16 @@
 			<Item Name="velocity.png" Type="Document" URL="../Glyphs/velocity.png"/>
 			<Item Name="single-boardRIO.png" Type="Document" URL="../Glyphs/single-boardRIO.png"/>
 		</Item>
+		<Item Name="NISE_CEF" Type="Folder">
+			<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
+			<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
+			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
+			<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
+			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
+		</Item>
 		<Item Name="SPI Configuration Tool.lvlib" Type="Library" URL="../SPI Configuration Tool.lvlib"/>
 		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
+		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -180,7 +187,10 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -191,11 +201,6 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
-				<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Node/NISE_CEF_Node.lvclass"/>
-				<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
-				<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
-				<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
-				<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -215,7 +220,44 @@
 			<Item Name="Modify IO Pin Names in SPI Engine.vi" Type="VI" URL="../Scripting/Modify IO Pin Names in SPI Engine.vi"/>
 			<Item Name="Replace DLU.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/Replace DLU.vi"/>
 			<Item Name="Scripting States.ctl" Type="VI" URL="../Scripting/Scripting States.ctl"/>
-			<Item Name="Copy Golden Template to User Location.vi" Type="VI" URL="../Scripting/Copy Golden Template to User Location.vi"/>
+			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
+			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
+			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
+			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
+			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
+			<Item Name="CLuster_Line Fit Results.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/CLuster_Line Fit Results.ctl"/>
+			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM RB_Fit Result.ctl"/>
+			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/Picture_Icon.ctl"/>
+			<Item Name="Cluster_Region info.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Region info.ctl"/>
+			<Item Name="Cluster_Top Left position.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Top Left position.ctl"/>
+			<Item Name="ENUM_Text Justify.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Text Justify.ctl"/>
+			<Item Name="Utilities_Calculate text position from top.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utilities_Calculate text position from top.vi"/>
+			<Item Name="Utility_Build remainder array for gaps.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utility_Build remainder array for gaps.vi"/>
+			<Item Name="TextFit_Place String Line in Icon.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Place String Line in Icon.vi"/>
+			<Item Name="TextFit_Build Size and Sort Char Cluster Array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Build Size and Sort Char Cluster Array.vi"/>
+			<Item Name="Cluster_Character Size and Priority Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Character Size and Priority Data.ctl"/>
+			<Item Name="String Char Normal.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/String Char Normal.ctl"/>
+			<Item Name="ENUM_Font Size Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Font Size Select.ctl"/>
+			<Item Name="TextFit_Build Character Cluster array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Build Character Cluster array.vi"/>
+			<Item Name="TextFit_Get Characters Priority and Index.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Get Characters Priority and Index.vi"/>
+			<Item Name="TextFit_Font List.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Font List.vi"/>
+			<Item Name="Cluster_Character Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Character Data.ctl"/>
+			<Item Name="Array Bool Char Bits Wide.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Wide.ctl"/>
+			<Item Name="Array Bool Char Bits Med.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Med.ctl"/>
+			<Item Name="Array Bool Char Bits Thin.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Thin.ctl"/>
+			<Item Name="Cluster_Font Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Font Data.ctl"/>
+			<Item Name="TextFit_Size Text to Fit.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Size Text to Fit.vi"/>
+			<Item Name="TextFit_Shrink next letter.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Shrink next letter.vi"/>
+			<Item Name="TextFit_Find Next Priority and Shrink.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Find Next Priority and Shrink.vi"/>
+			<Item Name="General_While Loop Stop.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/General/General_While Loop Stop.vi"/>
+			<Item Name="ENUM_General Stop condition.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_General Stop condition.ctl"/>
+			<Item Name="TextFit_Fill in Character Array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Fill in Character Array.vi"/>
+			<Item Name="TextFit_Extract Bitmap and size.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Extract Bitmap and size.vi"/>
+			<Item Name="TextFit_Count Pixel Width.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Count Pixel Width.vi"/>
+			<Item Name="TextFit_Sort By Order.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Sort By Order.vi"/>
+			<Item Name="TextFit_Size Character array to fit.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Size Character array to fit.vi"/>
+			<Item Name="Utilities_Justify Text Position.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utilities_Justify Text Position.vi"/>
+			<Item Name="TextFit_Insert Character Cluster array into Icon.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Insert Character Cluster array into Icon.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
