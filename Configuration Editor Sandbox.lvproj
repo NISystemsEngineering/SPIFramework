@@ -88,6 +88,7 @@
 			<Item Name="Device Configuration.lvclass" Type="LVClass" URL="../Classes/Device Configuration/Device Configuration.lvclass"/>
 			<Item Name="My System.lvclass" Type="LVClass" URL="../Classes/My System/My System.lvclass"/>
 			<Item Name="My System Configuration.lvclass" Type="LVClass" URL="../Classes/My System Configuration/My System Configuration.lvclass"/>
+			<Item Name="Convert Icon Name.vi" Type="VI" URL="../subVI/Convert Icon Name.vi"/>
 		</Item>
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="AC_Volts.png" Type="Document" URL="../Glyphs/AC_Volts.png"/>
@@ -124,8 +125,8 @@
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 		</Item>
 		<Item Name="SPI Configuration Tool.lvlib" Type="Library" URL="../SPI Configuration Tool.lvlib"/>
-		<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
+		<Item Name="SPI Engine Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/SPI Engine Scripting.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -201,6 +202,35 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
+				<Item Name="LabVIEW Icon API.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/LabVIEW Icon API.lvlib"/>
+				<Item Name="Icon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon/Icon.lvclass"/>
+				<Item Name="Layer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Layer/Layer.lvclass"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="Layer.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Layer.ctl"/>
+				<Item Name="LayerType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LayerType.ctl"/>
+				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
+				<Item Name="Icon Framework.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon Framework/Icon Framework.lvclass"/>
+				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Font.ctl"/>
+				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
+				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
+				<Item Name="Graphic.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Graphic.ctl"/>
+				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
+				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
+				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
+				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
+				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
+				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="IEColor.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/IEColor.ctl"/>
+				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
+				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
+				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -209,9 +239,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Input Paths.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Input Paths.ctl"/>
 			<Item Name="Check if Icon Specified.vi" Type="VI" URL="../Scripting/Initialization Scripting/IO Nodes/Sub VIs/Supporting VIs/Check if Icon Specified.vi"/>
-			<Item Name="Check for Valid File Paths.vi" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Sub VIs/Check for Valid File Paths.vi"/>
 			<Item Name="Modify Dequeue Cmds to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Dequeue Cmds to Requested Node Size.vi"/>
 			<Item Name="Modify Enqueue Data to Requested Node Size.vi" Type="VI" URL="../Scripting/Modify Enqueue Data to Requested Node Size.vi"/>
 			<Item Name="Modify NumNodes in SPI Engine.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/NumNodes/Modify NumNodes in SPI Engine.vi"/>
@@ -220,44 +248,12 @@
 			<Item Name="Modify IO Pin Names in SPI Engine.vi" Type="VI" URL="../Scripting/Modify IO Pin Names in SPI Engine.vi"/>
 			<Item Name="Replace DLU.vi" Type="VI" URL="../Scripting/Initialization Scripting/SOM Engine/Replace DLU.vi"/>
 			<Item Name="Scripting States.ctl" Type="VI" URL="../Scripting/Scripting States.ctl"/>
-			<Item Name="String Array_Body Text.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/String Array_Body Text.ctl"/>
-			<Item Name="STRING_Line Display.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/STRING_Line Display.ctl"/>
-			<Item Name="ENUM_Frame Template Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Frame Template Select.ctl"/>
-			<Item Name="Cluster_Text Color Set.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Text Color Set.ctl"/>
-			<Item Name="Icon_Write body text.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Icon/Icon_Write body text.vi"/>
-			<Item Name="CLuster_Line Fit Results.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/CLuster_Line Fit Results.ctl"/>
-			<Item Name="ENUM RB_Fit Result.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM RB_Fit Result.ctl"/>
-			<Item Name="Picture_Icon.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/Picture_Icon.ctl"/>
-			<Item Name="Cluster_Region info.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Region info.ctl"/>
-			<Item Name="Cluster_Top Left position.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Top Left position.ctl"/>
-			<Item Name="ENUM_Text Justify.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Text Justify.ctl"/>
-			<Item Name="Utilities_Calculate text position from top.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utilities_Calculate text position from top.vi"/>
-			<Item Name="Utility_Build remainder array for gaps.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utility_Build remainder array for gaps.vi"/>
-			<Item Name="TextFit_Place String Line in Icon.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Place String Line in Icon.vi"/>
-			<Item Name="TextFit_Build Size and Sort Char Cluster Array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Build Size and Sort Char Cluster Array.vi"/>
-			<Item Name="Cluster_Character Size and Priority Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Character Size and Priority Data.ctl"/>
-			<Item Name="String Char Normal.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/String_Picture/String Char Normal.ctl"/>
-			<Item Name="ENUM_Font Size Select.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_Font Size Select.ctl"/>
-			<Item Name="TextFit_Build Character Cluster array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Build Character Cluster array.vi"/>
-			<Item Name="TextFit_Get Characters Priority and Index.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Get Characters Priority and Index.vi"/>
-			<Item Name="TextFit_Font List.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Font List.vi"/>
-			<Item Name="Cluster_Character Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Character Data.ctl"/>
-			<Item Name="Array Bool Char Bits Wide.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Wide.ctl"/>
-			<Item Name="Array Bool Char Bits Med.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Med.ctl"/>
-			<Item Name="Array Bool Char Bits Thin.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Array/Array Bool Char Bits Thin.ctl"/>
-			<Item Name="Cluster_Font Data.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Cluster/Cluster_Font Data.ctl"/>
-			<Item Name="TextFit_Size Text to Fit.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Size Text to Fit.vi"/>
-			<Item Name="TextFit_Shrink next letter.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Shrink next letter.vi"/>
-			<Item Name="TextFit_Find Next Priority and Shrink.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Find Next Priority and Shrink.vi"/>
-			<Item Name="General_While Loop Stop.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/General/General_While Loop Stop.vi"/>
-			<Item Name="ENUM_General Stop condition.ctl" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Controls/Enum/ENUM_General Stop condition.ctl"/>
-			<Item Name="TextFit_Fill in Character Array.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Fill in Character Array.vi"/>
-			<Item Name="TextFit_Extract Bitmap and size.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Extract Bitmap and size.vi"/>
-			<Item Name="TextFit_Count Pixel Width.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Count Pixel Width.vi"/>
-			<Item Name="TextFit_Sort By Order.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Sort By Order.vi"/>
-			<Item Name="TextFit_Size Character array to fit.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Size Character array to fit.vi"/>
-			<Item Name="Utilities_Justify Text Position.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/Utilities/Utilities_Justify Text Position.vi"/>
-			<Item Name="TextFit_Insert Character Cluster array into Icon.vi" Type="VI" URL="../Icon Editor - Revist to Incorporate multiple buses/MB Icon Editor_V2.3_LV2009/MB Icon Editor_V2.3_LV2009/lv_icon_SubVis/TextFit/TextFit_Insert Character Cluster array into Icon.vi"/>
+			<Item Name="Icon Colors.ctl" Type="VI" URL="../Scripting/Initialization Scripting/Icon Editor/Icon Editor.llb/Icon Colors.ctl"/>
+			<Item Name="Change VI Icon.vi" Type="VI" URL="../Scripting/Initialization Scripting/IO Nodes/Sub VIs/Change VI Icon.vi"/>
+			<Item Name="Create Icon.vi" Type="VI" URL="../Scripting/Initialization Scripting/IO Nodes/Sub VIs/Icon API/Create Icon.vi"/>
+			<Item Name="Initialization References.ctl" Type="VI" URL="../Scripting/Initialization Scripting/State Machine/Controls/Initialization References.ctl"/>
+			<Item Name="Copy Golden Template to User Location.vi" Type="VI" URL="../Scripting/Copy Golden Template to User Location.vi"/>
+			<Item Name="Initialization and IO Node Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/Initialization and IO Node Scripting.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">

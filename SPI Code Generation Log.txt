@@ -1,17 +1,34 @@
+***********************
+Error 5002
+SPI Engine Scripting.lvlib:Check for Valid File Paths.vi<ERR>
+
+The path entered for input parameter <Placement VI> does not exist:
+
+C:\Users\Ian\Desktop\sbRIO-9651_FPGA_Main.vi
+***********************
 _____________________
 Preparing Bus 0
 _____________________
 Initialize
-Modify Dequeue Commands
-Modify Enqueue Data
-Create Project FIFOs
-Create and Place IO Nodes
-Expand FIFO Type Def
-Populate FIFO Names in Engine
-Modify I/O Pin Names
-Modify I/O Pin Enable
-Replace DLU
-Update Node Count in Engine
+Copy Template Bus Directory
 Place SPI Engine
-Buses Complete Check
-End
+Create Project FIFOs
+Create FPGA Data Nodes
+***********************
+Error 7
+Open VI Reference in SPI Engine Scripting.lvlib:Add VI to Library.vi->SPI Engine Scripting.lvlib:Create FPGA Data Node - Top.vi->SPI Engine Scripting.lvlib:Top Level State Machine.vi->RIO Target.lvclass:Generate Code.vi->SPI Configuration Tool.lvlib:SPI Configuration Main.vi<APPEND>
+VI Path: <b></b>
+***********************
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Copy Template Bus Directory
+Place SPI Engine
+Create Project FIFOs
+Create FPGA Data Nodes
+***********************
+Error 7
+Open VI Reference in SPI Engine Scripting.lvlib:Add VI to Library.vi->SPI Engine Scripting.lvlib:Create FPGA Data Node - Top.vi->SPI Engine Scripting.lvlib:Top Level State Machine.vi->RIO Target.lvclass:Generate Code.vi->SPI Configuration Tool.lvlib:SPI Configuration Main.vi<APPEND>
+VI Path: <b></b>
+***********************
