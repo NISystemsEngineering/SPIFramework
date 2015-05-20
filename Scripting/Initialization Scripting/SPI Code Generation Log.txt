@@ -2,6 +2,7 @@ _____________________
 Preparing Bus 0
 _____________________
 Initialize
+Create FPGA VI
 Copy Template Bus Directory
 Place SPI Engine
 Create Project FIFOs
