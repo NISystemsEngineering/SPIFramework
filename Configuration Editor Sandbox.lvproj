@@ -125,8 +125,8 @@
 			<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 		</Item>
 		<Item Name="SPI Configuration Tool.lvlib" Type="Library" URL="../SPI Configuration Tool.lvlib"/>
-		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
 		<Item Name="SPI Engine Scripting.lvlib" Type="Library" URL="../Scripting/Initialization Scripting/SPI Engine Scripting.lvlib"/>
+		<Item Name="State to Status String.vi" Type="VI" URL="../subVI/State to Status String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>

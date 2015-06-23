@@ -3,16 +3,7 @@ Preparing Bus 0
 _____________________
 Initialize
 Copy Template Bus Directory
-Place SPI Engine
-Create Project FIFOs
-Create FPGA Data Nodes
-Place FPGA Data Nodes
-Update Node Count in Engine
-Expand FIFO Type Def
-Populate FIFO Names in Engine
-Modify I/O Pin Names
-Modify I/O Pin Enable
-Modify Dequeue Commands
-Modify Enqueue Data
-Scripting Complete Check
-End
+***********************
+Error 1357
+Invoke Node in SPI Engine Scripting.lvlib:Copy Template Library.vi->SPI Engine Scripting.lvlib:Top Level State Machine.vi->RIO Target.lvclass:Generate Code.vi->SPI Configuration Tool.lvlib:SPI Configuration Main.vi
+***********************
