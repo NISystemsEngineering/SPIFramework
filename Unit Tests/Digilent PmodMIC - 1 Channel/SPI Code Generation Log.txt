@@ -1,0 +1,19 @@
+_____________________
+Preparing Bus 0
+_____________________
+Initialize
+Copy Template Bus Directory
+Place SPI Engine
+Create Project FIFOs
+Create FPGA Data Nodes
+Place FPGA Data Nodes
+Update Node Count in Engine
+Expand FIFO Type Def
+Populate FIFO Names in Engine
+Modify I/O Pin Names
+Modify I/O Pin Enable
+Modify Dequeue Commands
+Modify Enqueue Data
+Replace DLU
+Scripting Complete Check
+End

@@ -1,3 +1,11 @@
+***********************
+Error 5002
+SPI Engine Scripting.lvlib:Check for Valid File Paths.vi<ERR>
+
+The path entered for input parameter <Destination Generated Code (make relative)> does not exist:
+
+<Not A Path>
+***********************
 _____________________
 Preparing Bus 0
 _____________________
